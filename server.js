@@ -11,7 +11,7 @@ app.use(cors());
 mongoose.connect('mongodb+srv://adrielperegrina:GdCYOSj3ouyGJXf3@musicos.7lreafi.mongodb.net/?retryWrites=true&w=majority',{
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  dbName: 'carlosart17' // Reemplaza con el nombre real de tu base de datos
+  dbName: 'musics' // Reemplaza con el nombre real de tu base de datos
 });
 
 // Middleware para analizar datos JSON en las solicitudes
